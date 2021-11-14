@@ -27,16 +27,18 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "code": "foreground.sh"
     },
     "finish": {
       "text": "finish.md"
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/root"
   },
   "backend": {
-    "imageid": "kubernetes"
+    "imageid": "ubuntu:2004"
   }
 }
