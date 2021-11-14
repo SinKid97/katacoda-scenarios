@@ -5,4 +5,3 @@ cd env_file
 touch db.env
 touch wp.env
 cd ..
-chmod 777 -R cfg/
