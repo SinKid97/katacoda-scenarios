@@ -36,15 +36,7 @@ services:
             WORDPRESS_DB_PASSWORD: secret 
         depends_on: 
             - mysql-server 
-    grafana:
-        image: grafana/grafana
-        container_name: grafana
-        ports:
-          - '3000:3000'
-        depends_on:
-            - mysql-server 
-        environment:
-          GF_INSTALL_PLUGINS: percona-percona-app
+
 </pre>
 
 ## Add sensitive information to environment files
