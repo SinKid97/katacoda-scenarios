@@ -1,4 +1,4 @@
-#Securing Passwords with Docker Secrets
+# Securing Passwords with Docker Secrets
 In the Docker Compose file, the sensitive information can be read in plain text by anyone, such as user name, password and database name.
 <br>
 To secure the password, we cannot place the information in a file that everyone can access. We need to use Docker Secrets to separate the sensitive information. It can reduce the chance of expose the information.
