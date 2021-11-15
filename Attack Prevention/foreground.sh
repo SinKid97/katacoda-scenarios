@@ -1,5 +1,9 @@
 #/bin/bash
 touch docker-compose.yml
+mkdir cfg
+cd cfg
+touch setup.sql
+cd ..
 mkdir env_file
 cd env_file
 touch db.env
