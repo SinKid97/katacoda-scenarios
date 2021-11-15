@@ -3,6 +3,8 @@ In the Docker Compose file, the sensitive information can be read in plain text 
 <br>
 To secure the password, we cannot place the information in a file that everyone can access. We need to use Docker Secrets to separate the sensitive information. It can reduce the chance of expose the information.
 
+##Close the previous docker
+press ctrl + c
 ## docker-compose.yml file for Wordpress
 We can see the sensitive information in the file without using Docker Secrets:
 

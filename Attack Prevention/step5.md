@@ -1,6 +1,8 @@
 #Create Docker Secrets
 We can put the sensitive information into a secret file and encrypt the data. So, the data can be saved securely instead of saving in the yml file.
-
+##Close the previous docker
+press ctrl + c
+#Add secret part
 First, add a secret part after the services part in yml file:
 
 `docker-compose.yml` :
