@@ -1,8 +1,8 @@
-#Create Docker Secrets
+# Create Docker Secrets
 We can put the sensitive information into a secret file and encrypt the data. So, the data can be saved securely instead of saving in the yml file.
-##Close the previous docker
+## Close the previous docker
 press ctrl + c
-#Add secret part
+# Add secret part
 First, add a secret part after the services part in yml file:
 
 `docker-compose.yml` :
@@ -19,7 +19,7 @@ secrets:
 
 </pre>
 
-##Add  individual secret files
+## Add  individual secret files
 `mysql_root_password`:
 <pre class="file" data-target="clipboard">
 12345
@@ -40,7 +40,7 @@ wordpress_user
 secret
 </pre>
 
-##Compose the Docker with the yml, secret and envirnoment fils
+## Compose the Docker with the yml, secret and envirnoment fils
 The environment details should be modified like following:
 <pre class="file" data-target="clipboard">
 version: '3.2' 

@@ -1,4 +1,4 @@
-#Start set up attack prevention  
+# Start set up attack prevention  
 Finally, we are going to set up some plugins for attack prevention.
 <br>
 Now, the major authentication method is Password. But this is not save enough. Once the password is leaked, attacker can take the information of server easily. So, we need to set up the system be securer.
@@ -35,11 +35,11 @@ There are two ways to set up.
    Then, you will see the status change from OFF to ON.
    ![Status](./assets/Status.png)
 
-#Wordpress 2-step verification Setting
+# Wordpress 2-step verification Setting
 You can set up the Attempts Limit by filling in the number.
 ![Limit](./assets/Limit.png)
 
-#Login with Wordpress 2-step verification
+# Login with Wordpress 2-step verification
 When you login again, you need to enter the 6-digit code to verify your identity.
 ![Login2](./assets/Login2.png)
    
