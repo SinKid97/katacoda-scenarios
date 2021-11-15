@@ -101,7 +101,7 @@ services:
       - ./pipe:/var/log/mysql/
     restart: always
     command: mysqld --general_log=1 --log_output='FILE' --general-log-file=/var/log/mysql/general.log
-    env_file: ./db.env
+    env_file: ./env_file/db.env
     networks:
       - elk
       
@@ -112,7 +112,7 @@ services:
     ports:
       - 8080:80
     restart: always
-    env_file: ./wp.env
+    env_file: ./env_file/wp.env
     # volumes:
       # - ./wordpress/data:/var/www/html/wp-content
     networks:
