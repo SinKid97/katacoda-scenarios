@@ -109,6 +109,7 @@ services:
             - mysql-server 
 
 </pre>
+
 Use dcoker-compose up command to set up Docker
 
 `docker-compose up`{{execute}}
