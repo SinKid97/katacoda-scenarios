@@ -19,6 +19,7 @@ password: testuser
 <br>
 email: testuser@test.com
 <br>
+![Info](./assets/Info.png)
 
 ## Login
 You can login the webpage by
